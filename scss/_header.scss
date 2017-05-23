@@ -2,7 +2,7 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: rgba(153, 153, 153, 0.72);
   padding: 20px 0;
   height: 90px;
   
@@ -13,13 +13,14 @@
       margin: 0;
       padding: 6px 0;
       line-height: 1;
-      font-family: $accent-font;
+      font-family: 'Satisfy';
       font-weight: 700;
       letter-spacing: 3px;
       text-transform: uppercase;
+      color:#fff;
     }
     
-    h1 a, h1 a:hover {
+    h1 a,h1 a:hover {
       color: #fff;
     }
     
@@ -42,6 +43,6 @@
     }
   }
   .is-sticky & {
-    background: rgba(0,0,0,0.85);
+    background: rgba(153, 153, 153, 0.72);
   }
 }
